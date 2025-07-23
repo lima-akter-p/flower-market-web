@@ -13,7 +13,7 @@
 /* shared style */
 
 main > section{
-  margin-top:60pxpx;
+  margin-top:100px;
 }
 
 main{
@@ -67,7 +67,7 @@ nav ul{
   gap:40px;
 }
 .brand{
-  font-size:2rem;
+  font-size:3rem;
   font-weight: bold;
 }
 
@@ -98,6 +98,10 @@ nav ul{
 .plant{
   text-align: center;
   margin-top:-100px;
+}
+.plant-title{
+  font-size: 3rem;
+  font-weight:bold ;
 }
 
 /* section plant-card */
@@ -144,6 +148,48 @@ nav ul{
   grid-template-columns: repeat(4, 1fr);
   margin-top:50px;
 }
+/* section 3... */
+.imbd-con{
+  position: relative;
+  display: inline-block;
+}
+.img-shop{
+  width: 100%;
+  display: inline-block;
+}
+.img-badge{
+  position: absolute;
+  top:-80px;
+  right:-80px;
+  width:300px;
+
+
+}
+.img-shop{
+  
+  display: flex;
+  gap: 40px;
+}
+.flower-lover{
+  width:100%;
+  text-align: center;
+  /* height:600px; */
+  
+}
+.love-title{
+  font-size:3rem;
+  font-weight: bold;
+}
+
+/* section 4... */
+.latest-title{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.latest-con{
+  text-align: center;
+}
 
 
 
@@ -185,6 +231,14 @@ nav ul{
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
   }
+  .img-shop{
+    flex-direction:column;
+  
+  }
+  .img-badge{
+    display: none;
+  }
+
    
    
    
