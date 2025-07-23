@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+nav,header{
+ max-width:1100px;
+ margin:0 auto;
+}
+
+.prim-color{
+  color:rgba(233, 90, 8, 0.64)
+  
+}
+.light-color{
+  color: rgba(233, 180, 8, 1);
+
+}
+.bright-color{
+  color: rgba(233, 135, 8, 0.64);
+}
+
+
+
+
+/* header related style */
+
+.nav-item{
+ list-style:none;
+}
+
+.nav-link{
+ text-decoration: none;
+ color:black;
+}
+.navbar{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+
+}
+nav ul{
+  display: flex;
+  gap:40px;
+}
+.brand{
+  font-size:2rem;
+  font-weight: bold;
+}
+
+.flower-title{
+  font: size 4.2em;
+  font-weight:bold;
+
+}
+.flower-container{
+  display: flex;
+}
+.about-flower{
+  margin-top:-20px;
+  margin:161px 0;
+   width:570px; 
+  height:299px;
+}
+
+
+.flower-image{
+  max-width: 100%;
+  width:570px;
+  height:335px;
+
+}
+
+
+
+
+
+/* Responsive related style */
+@media  screen and (max-width: 576px) {
+  .home,
+  .shop,
+  .about{
+    
+    display: none;
+     /* margin-left:100px; */
+     align-items: center;
+
+   }
+   .flower-container{
+    flex-direction: column;
+    justify-content: center;
+    
+    /* max-width:1140px; */
+  }
+   .flower-image{
+    order: -1;
+    align-items: center;
+    
+    }
+  .about-flower{
+    margin-top:-50px;
+     align-items: center;
+    justify-content: center;
+    max-width:360px;
+  }
+  .nav-item{
+    margin-left:-20px;
+
+  }
+   
+   
+   
+  
+}
