@@ -67,7 +67,7 @@ nav ul{
   gap:40px;
 }
 .brand{
-  font-size:3rem;
+  font-size:2rem;
   font-weight: bold;
 }
 
@@ -183,13 +183,140 @@ nav ul{
 
 /* section 4... */
 .latest-title{
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .latest-con{
   text-align: center;
 }
+
+/* section 5 */
+.row img{
+  width:100%;
+  height:100%;
+  
+}
+
+.row{
+  margin-top:250px;
+  height:400px;
+  display: flex;
+  gap:50px;
+  
+}
+.twin-img img{
+  height:100%;
+  border-radius:10px;
+  
+
+}
+
+
+.row > div{
+  flex:1;
+  
+}
+/* flower text */
+.image-container{
+  position: relative;
+  display:inline-block;
+}
+.image-text{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:white;
+  font-size:1.2rem;
+  font-weight:bold;
+  text-shadow:1px 1px 3px black;
+  text-align: center;
+
+}
+.zabo img{
+  border-radius:10px;
+
+  width:650px;
+  
+  gap:none;
+  
+  text-align: center;
+}
+
+
+/* footer */
+.footer-div{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+footer{
+  max-width:1100px;
+  margin:0 auto;
+  margin-top:100px;
+  justify-content:space-around;
+  
+  
+  
+}
+
+li{
+  list-style: none;
+}
+
+/* sec6 */
+.img1-container{
+  position: relative;
+  width:100%;
+  max-width:1100;
+  margin: auto;
+}
+
+.img1-container img{
+  width:100%;
+  display: block;
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align: center;
+  color: white;
+
+}
+.content input{
+  border: none;
+  padding:10px 100px;
+  text-align: start;
+  flex:1;
+  
+}
+.btn{
+  margin-left:-5px;
+  padding:10px 10px;
+  flex:1;
+  border:none;
+  background-color: rgba(233, 90, 8, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
@@ -201,42 +328,104 @@ nav ul{
   .about{
     
     display: none;
-     /* margin-left:100px; */
-     align-items: center;
-
-   }
-   .flower-container{
+      margin-left:100px;
+    
+     
+    }
+    header{
+      justify-items: center;
+      margin-left:450px;
+    }
+    .nav-item{
+      margin-left:-20px;
+    }
+   
+  
+    .flower-container,
+    .row
+  {
     flex-direction: column;
     justify-content: center;
-    
-    /* max-width:1140px; */
+    /* max-width:576px */
   }
-   .flower-image{
-    order: -1;
-    align-items: center;
+
+  .row{
+    margin-left:100px;
+    margin-bottom:500px;
+  }
+
+  /* .zabo,.twin-img
+    {
+    width:400px;
+    height:423px;
+    justify-items: center;
+    
+  } */
+   .image-container{
+    width:576px;
+    height:200px;
+   }
+
+   
+
+  .plant{
+    margin-left:200px;
+    
+    
+
+   }
+
+  .flower-image{
+     order: -1; 
+     align-items: center;
     
     }
+
   .about-flower{
-    margin-top:-50px;
-     align-items: center;
-    justify-content: center;
+    margin-top:50px;
+    margin-left:40px;
+    align-items: center;
+    text-align: center;
+  
     max-width:360px;
   }
-  .nav-item{
-    margin-left:-20px;
+  
 
-  }
+  
 
   .rose-container{
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
-  }
+     grid-template-columns: repeat(2, 1fr);
+     margin-left:50px;
+    }
+   
+  
+  
+  
   .img-shop{
     flex-direction:column;
+    margin-left:80px;
   
   }
   .img-badge{
     display: none;
+  }
+  .latest-con{
+    margin-left:200px;
+    text-align: center;
+
+
+  }
+  .img1-container{
+    width: 576px;
+    min-height: 200px;
+    margin-top:-300px;
+    margin-left:100px
+    
+  }
+  .footer-div{
+    grid-template-columns: repeat(1 ,1fr);
+    justify-items: center;
+    margin-left:300px;
   }
 
    
